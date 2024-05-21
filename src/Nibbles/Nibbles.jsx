@@ -46,6 +46,10 @@ const Nibbles = () => {
         title: "A Flocculent Foul (from <i>Trimming England</i>)",
         link: "/nibbles/trimming",
       },
+      {
+        title: "Nibs (from <i>Violent Solutions to Popular Problems</i>)",
+        link: "/nibbles/violent",
+      }
     ];
 
     const listRight = [
@@ -78,7 +82,10 @@ const Nibbles = () => {
         title: "My Top Ten Nordic Novels",
         link: "/nibbles/top-ten-nordic-novels",
       },
-    
+      {
+        title: "My Top Ten Argentinian Novels",
+        link: "/nibbles/top-ten-argentinian-novels",
+      }
     ];
 
   return (

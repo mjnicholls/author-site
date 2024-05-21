@@ -19,6 +19,8 @@ import Spanish from "./Nibbles/subnibbles/Spanish";
 import Thousandth from "./Nibbles/subnibbles/1002nd";
 import Trimming from "./Nibbles/subnibbles/Trimming";
 import Finnish from "./Nibbles/subnibbles/Finnish";
+import Violent from "./Nibbles/subnibbles/VS";
+import Argentina from "./Nibbles/subnibbles/Argentina";
 
 const containerStyle = {
   display: "flex",
@@ -52,6 +54,8 @@ function App() {
               <Route path="/nibbles/thousand" element={<Thousandth />} />
               <Route path="/nibbles/trimming" element={<Trimming />} />
               <Route path="/nibbles/top-ten-nordic-novels" element={<Finnish />} />
+              <Route path="/nibbles/violent" element={<Violent />} />
+              <Route path="/nibbles/top-ten-argentinian-novels" element={<Argentina />} />
               {/* <Route path="*" element={<NoMatch />} /> */}
             </Routes>
           </Layout>

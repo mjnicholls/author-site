@@ -19,7 +19,7 @@ const Tailspin = () => {
 </Box>
 
 <Box pr={4} pt={4} pb={4} sx={{ display: { md: "none", xs: "flex" }, justifyContent: "center" }}>
-<img src='../../../../teak.png' alt="Teak Cabinet" width="200px" height="300px"></img>
+<img src='../../../../CTC.jpg' alt="Teak Cabinet" width="200px" height="300px"></img>
   </Box>
 
 <Grid container pl={0}>
@@ -27,7 +27,7 @@ const Tailspin = () => {
     <Grid item xs={ isSmallScreen ? 0 : 3 } sx={{ display: { md: "flex", xs: "none" }}}>
         <Box>
         <hr style={{ width: "100%", border: "1px solid #265479" }} />
-        <img src='../../../../teak.png' alt="Teak Cabinet" width="225px" height="300px"></img>
+        <img src='../../../../CTC.jpg' alt="Teak Cabinet" width="225px" height="300px"></img>
         <hr style={{ width: "100%", border: "1px solid #265479" }} />
         </Box>
 </Grid>
