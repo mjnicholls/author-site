@@ -9,12 +9,17 @@ export const BoxColorOne = styled(Box)({
     backgroundColor: c1,
 })
 
+export const BoxCentred = styled(Box)({
+   display: "flex", 
+   justifyContent: "center"
+})
+
 
 export const BoxMain2 = styled(Box)(({ theme }) => ({
     [theme.breakpoints.down('md')]: {
-        padding: "40px 20px 40px 20px"
+        padding: "20px 20px 20px 20px"
     },
     [theme.breakpoints.up('md')]: {
-        padding: "40px 120px 60px 120px"
+        padding: "30px 120px 30px 120px"
     },
 }));

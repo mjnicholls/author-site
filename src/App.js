@@ -21,6 +21,7 @@ import Trimming from "./Nibbles/subnibbles/Trimming";
 import Finnish from "./Nibbles/subnibbles/Finnish";
 import Violent from "./Nibbles/subnibbles/VS";
 import Argentina from "./Nibbles/subnibbles/Argentina";
+import Cymru from "./Cymru/Cymru";
 
 const containerStyle = {
   display: "flex",
@@ -38,6 +39,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/books" element={<Books />} />
+              <Route path="/cymru" element={<Cymru />} />
               <Route path="/nibbles" element={<Nibbles />} />
               <Route path="/nibbles/stew" element={<Stew />} />
               <Route path="/nibbles/house" element={<House />} />

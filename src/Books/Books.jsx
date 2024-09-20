@@ -66,7 +66,7 @@ const book = [
 <Grid item pr={{ md: 4, sm: 0}} sx={{ display: "flex", flexDirection: { md: "row", sm: "none" }}}>
   
   <Box pr={4} sx={{ display: { md: "flex", xs: "none" }}}>
-    <img src={book[8].title} alt={book[8].alt} width="140px" height="200px" />
+    <img src={book[8].title} alt={book[8].alt} width="120px" height="180px" />
   </Box>
 
 

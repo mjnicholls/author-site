@@ -22,6 +22,20 @@ export const MainText = styled(Typography)(({ theme }) => ({
         fontWeight: 500
     },
     [theme.breakpoints.up('md')]: {
+        fontSize: "25px",
+        fontWeight: 500
+    },
+}));
+
+export const MainTextCymru = styled(Typography)(({ theme }) => ({
+    fontFamily: "Cormorant Infant",
+    color: "black",
+    marginBottom: "15px",
+    [theme.breakpoints.down('md')]: {
+        fontSize: "20px",
+        fontWeight: 500
+    },
+    [theme.breakpoints.up('md')]: {
         fontSize: "20px",
         fontWeight: 500
     },
@@ -38,7 +52,7 @@ export const MainTextLink = styled(Typography)(({ theme }) => ({
         fontSize: "20px"
     },
     [theme.breakpoints.up('md')]: {
-        fontSize: "20px",
+        fontSize: "25px",
     },
 }));
 
@@ -46,18 +60,9 @@ export const MainHeader = styled(Typography)(({ theme }) => ({
     fontFamily: f1,
     color: "black",
     [theme.breakpoints.down('md')]: {
-        fontSize: "20px"
+        fontSize: "25px"
     },
     [theme.breakpoints.up('md')]: {
-        fontSize: "30px",
+        fontSize: "25px",
     },
 }));
-
-export const DropCap = styled(Typography)({
-    backgroundColor: c1,
-    float: "left",
-    fontSize: "3em",
-    lineHeight: 1,
-    marginRight: "0.1em",
-    fontFamily: f1,
-})

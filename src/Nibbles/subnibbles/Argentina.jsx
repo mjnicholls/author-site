@@ -1,11 +1,11 @@
 import React from 'react'
-import { MainText, MainHeader, DropCap } from '../Styles'
+import { MainText, MainHeader } from '../Styles'
 import { Grid, Box, useMediaQuery } from '@mui/material'
 import { BoxMain2 } from '../../globalStyles'
 
 const Argentina = () => {
 
-    const isSmallScreen = useMediaQuery("(max-width:899px)");
+const isSmallScreen = useMediaQuery("(max-width:899px)");
 
   return (
 <>

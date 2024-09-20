@@ -25,7 +25,7 @@ export const MainText = styled(Typography)(({ theme }) => ({
         fontSize: "20px"
     },
     [theme.breakpoints.up('md')]: {
-        fontSize: "25px",
+        fontSize: "20px",
     },
 }));
 
@@ -33,10 +33,10 @@ export const MainHeader = styled(Typography)(({ theme }) => ({
     fontFamily: f1,
     color: "black",
     [theme.breakpoints.down('md')]: {
-        fontSize: "25px"
+        fontSize: "20px"
     },
     [theme.breakpoints.up('md')]: {
-        fontSize: "40px",
+        fontSize: "30px",
     },
 }));
 

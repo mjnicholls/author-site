@@ -16,6 +16,10 @@ const Header = () => {
         {
           title: "Nibbles",
           link: "/nibbles"
+        },
+        {
+          title: "Cymru",
+          link: "/cymru"
         }
       ];
 
@@ -28,13 +32,13 @@ const Header = () => {
 
   return (
     <BoxColorOne>
-      <SubBox pt={6}>
+      <SubBox pt={4}>
       <HeaderText>
         I am M.J. Nicholls. I write comic novels. I am nothing.
       </HeaderText>
       </SubBox>
 
-      <SubBox pt={4} pb={6}>
+      <SubBox pt={4} pb={4}>
         {pages.map((i) => 
             <MenuText pl={4} onClick={() => handleNavigation(i.link)} sx={{ cursor: "pointer" }}>
              ⇝ {i.title}

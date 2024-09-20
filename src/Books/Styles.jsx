@@ -19,7 +19,7 @@ export const HeaderText = styled(Typography)(({ theme }) => ({
         fontSize: "22px"
     },
     [theme.breakpoints.up('md')]: {
-        fontSize: "30px"
+        fontSize: "25px"
     },
     color: "black",
     paddingBottom: "0px"
@@ -32,7 +32,7 @@ export const MainText = styled(Typography)(({ theme }) => ({
         fontWeight: 500
     },
     [theme.breakpoints.up('md')]: {
-        fontSize: "25px",
+        fontSize: "20px",
         fontWeight: 500
     },
     color: "black",

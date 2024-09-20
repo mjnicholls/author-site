@@ -1,5 +1,5 @@
 import React from 'react'
-import { MainText, MainHeader, DropCap, MainTextLink } from './Styles'
+import { MainHeader, MainTextLink } from './Styles'
 import { Grid, Box } from '@mui/material'
 import { BoxMain2 } from '../globalStyles'
 import { useNavigate } from 'react-router-dom';

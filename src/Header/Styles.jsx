@@ -1,8 +1,7 @@
 import { styled } from '@mui/material/styles'
-import { withTheme } from '@mui/system';
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import { c1, f1 } from '../globalStyles';
+import { f1 } from '../globalStyles';
 
 
 export const BoxColorOne = styled(Box)({
@@ -23,7 +22,7 @@ export const HeaderText = styled(Typography)(({ theme }) => ({
         padding: "0px 20px 0px 20px"
     },
     [theme.breakpoints.up('md')]: {
-        fontSize: "50px",
+        fontSize: "35px",
     },
     color: "white",
     marginRight: "15px",
@@ -36,7 +35,7 @@ export const MenuText = styled(Typography)(({ theme }) => ({
         padding: "0px 20px 0px 20px"
     },
     [theme.breakpoints.up('md')]: {
-        fontSize: "30px",
+        fontSize: "25px",
     },
     color: "white",
     "&:hover": {
