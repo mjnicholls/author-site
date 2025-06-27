@@ -22,6 +22,8 @@ import Finnish from "./Nibbles/subnibbles/Finnish";
 import Violent from "./Nibbles/subnibbles/VS";
 import Argentina from "./Nibbles/subnibbles/Argentina";
 import Cymru from "./Cymru/Cymru";
+import Grantham from "./Nibbles/subnibbles/Grantham"
+
 
 const containerStyle = {
   display: "flex",
@@ -58,6 +60,7 @@ function App() {
               <Route path="/nibbles/top-ten-nordic-novels" element={<Finnish />} />
               <Route path="/nibbles/violent" element={<Violent />} />
               <Route path="/nibbles/top-ten-argentinian-novels" element={<Argentina />} />
+              <Route path="/nibbles/grantham" element={<Grantham />} />
               {/* <Route path="*" element={<NoMatch />} /> */}
             </Routes>
           </Layout>
